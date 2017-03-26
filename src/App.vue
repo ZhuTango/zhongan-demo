@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <carousel></carousel>
-    <block></block>
+    <carousel :mockimgs="{mockimgs}"></carousel>
+    <block :mockmsgs="{mockmsgs}"></block>
   </div>
 </template>
 
@@ -9,13 +9,19 @@
 import Hello from './components/Hello'
 import Carousel from './components/Carousel'
 import Block from './components/Block'
-
+import Mock from './assets/mock.json'
 export default {
   name: 'app',
   components: {
     Hello,
     Carousel,
     Block
+  },
+  data () {
+    return {
+      mockimgs: Mock.imgs,
+      mockmsgs: Mock.msgs
+    }
   }
 }
 </script>

@@ -14,19 +14,19 @@
 </template>
 
 <script>
-import Mock from '../assets/img-mock.json'
+// import Mock from '../assets/img-mock.json'
 let win = window
 export default {
   name: 'hello',
+  props: ['mockimgs'],
   data () {
     return {
-      imgs: Mock.imgs,
+      imgs: this.mockimgs.mockimgs,
       num: 0,
       ti: null
     }
   },
   mounted: function () {
-    console.log(this.imgs)
     this.run(0)
   },
   methods: {
