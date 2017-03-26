@@ -14,7 +14,6 @@
 </template>
 
 <script>
-// import Mock from '../assets/img-mock.json'
 let win = window
 export default {
   name: 'hello',

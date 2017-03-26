@@ -15,8 +15,6 @@
 </template>
 
 <script>
-// import $ from 'jquery'
-
 export default {
   name: 'hello',
   props: ['mockmsg'],
