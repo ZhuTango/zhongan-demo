@@ -43,12 +43,12 @@ export default {
     // height: 100%;
     display: flex;
     margin: 3px 20px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #dcdcdc;
     padding: 20px 0;
     .msg-left{
       display: flex;
       flex: 1;
-      border-right: 2px solid gray;
+      border-right: 2px solid #dcdcdc;
       justify-content: center;
       align-items: center;
       img {

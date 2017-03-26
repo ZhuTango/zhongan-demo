@@ -32,7 +32,7 @@ export default {
     changeHeight () {
       let $block = $('.block')
       let $carousel = $('.carousel')
-      let blockHeight = $(window).height() - $carousel.height() - 25
+      let blockHeight = $(win).height() - $carousel.height() - 25
       $block.height(blockHeight)
     }
   }
