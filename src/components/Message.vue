@@ -1,7 +1,7 @@
 <template>
   <div class="message">
     <div class="msg-left">
-      <img src="static/logo.png" alt="">
+      <img v-bind:src="msg.url" alt="">
     </div>
     <div class="msg-right">
       <div class="msg-title" v-text="msg.name"></div>

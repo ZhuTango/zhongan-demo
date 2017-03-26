@@ -6,14 +6,12 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
 import Carousel from './components/Carousel'
 import Block from './components/Block'
 import Mock from './assets/mock.json'
 export default {
   name: 'app',
   components: {
-    Hello,
     Carousel,
     Block
   },
