@@ -1,0 +1,15 @@
+{
+  "imgs": [{
+    "url": "/static/1.jpg",
+    "selected": false
+  }, {
+    "url": "/static/2.jpg",
+    "selected": true
+  }, {
+    "url": "/static/3.jpg",
+    "selected": false
+  }, {
+    "url": "/static/4.jpg",
+    "selected": false
+  }]
+}
